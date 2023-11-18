@@ -1,0 +1,25 @@
+.card{
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    gap: 20px;
+}
+.cardl{
+
+}
+
+.cardr{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.cardr div{
+    display: flex;
+    width: 100%;
+    background-color: rebeccapurple;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
