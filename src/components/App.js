@@ -100,10 +100,10 @@ function App() {
   return (
     <div>
         <h1>Our Menu</h1>
-        <button onClick={allClick}>All</button>
-        <button onClick={breakClick}>Breakfast</button>
-        <button onClick={lunchClick}>Lunch</button>
-        <button onClick={shakeClick}>Shakes</button>
+        <button id='filter-btn' onClick={allClick}>All</button>
+        <button id='filter-btn-1' onClick={breakClick}>Breakfast</button>
+        <button id='filter-btn-2' onClick={lunchClick}>Lunch</button>
+        <button id='filter-btn-3' onClick={shakeClick}>Shakes</button>
         
         <div>
             <ul style={{listStyle:'none'}}>{dish.map((e)=>(<li>{<Cards key={e.id} details={e}/>}</li>))}</ul>
